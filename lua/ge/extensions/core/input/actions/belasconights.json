@@ -1,0 +1,42 @@
+{
+ "belasconights_toggle": {
+  "cat": "gameplay",
+  "order": 300,
+  "ctx": "tlua",
+  "onDown": "if belasconights_core then belasconights_core.toggle() end",
+  "title": "Belasco Nights: toggle night mode",
+  "desc": "Switch the street racing scene on or off"
+ },
+ "belasconights_sprint": {
+  "cat": "gameplay",
+  "order": 301,
+  "ctx": "tlua",
+  "onDown": "if belasconights_sprint then belasconights_sprint.start() end",
+  "title": "Belasco Nights: start sprint race",
+  "desc": "Start a sprint race against rivals from where you are"
+ },
+ "belasconights_outrun": {
+  "cat": "gameplay",
+  "order": 302,
+  "ctx": "tlua",
+  "onDown": "if belasconights_outrun then belasconights_outrun.start() end",
+  "title": "Belasco Nights: start outrun",
+  "desc": "Challenge a rival to an outrun"
+ },
+ "belasconights_abort": {
+  "cat": "gameplay",
+  "order": 303,
+  "ctx": "tlua",
+  "onDown": "if belasconights_core then belasconights_core.abortEvent() end",
+  "title": "Belasco Nights: abort event",
+  "desc": "Abort the current race or outrun"
+ },
+ "belasconights_garage": {
+  "cat": "gameplay",
+  "order": 304,
+  "ctx": "tlua",
+  "onDown": "if belasconights_garage then belasconights_garage.toggle() end",
+  "title": "Belasco Nights: garage",
+  "desc": "Open the parts shop at a garage, or set a route to the nearest one"
+ }
+}

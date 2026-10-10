@@ -1,0 +1,1213 @@
+{
+ "version": 1,
+ "slots": {
+  "starter": [
+   {
+    "model": "bx",
+    "config": "200bx_base_M",
+    "name": "Ibishu 200BX"
+   }
+  ],
+  "rivals_tier1": [
+   {
+    "model": "covet",
+    "config": "15gtz_turbo2_M",
+    "power": 151
+   },
+   {
+    "model": "covet",
+    "config": "15gtz_turbo_M",
+    "power": 151
+   },
+   {
+    "model": "covet",
+    "config": "gtz",
+    "power": 156
+   },
+   {
+    "model": "covet",
+    "config": "turbo",
+    "power": 187
+   },
+   {
+    "model": "pessima",
+    "config": "LX_A",
+    "power": 141
+   },
+   {
+    "model": "pessima",
+    "config": "LX_M",
+    "power": 141
+   },
+   {
+    "model": "pessima",
+    "config": "ZX_4ws_M",
+    "power": 151
+   },
+   {
+    "model": "pessima",
+    "config": "ZX_M",
+    "power": 151
+   },
+   {
+    "model": "midsize",
+    "config": "LX_A",
+    "power": 145
+   },
+   {
+    "model": "midsize",
+    "config": "LX_M",
+    "power": 145
+   },
+   {
+    "model": "midsize",
+    "config": "LX_V6_A",
+    "power": 175
+   },
+   {
+    "model": "midsize",
+    "config": "LX_V6_M",
+    "power": 175
+   },
+   {
+    "model": "midsize",
+    "config": "LX_V6_sport_A",
+    "power": 184
+   },
+   {
+    "model": "midsize",
+    "config": "LX_V6_sport_M",
+    "power": 184
+   },
+   {
+    "model": "midsize",
+    "config": "LX_sport_A",
+    "power": 164
+   },
+   {
+    "model": "midsize",
+    "config": "LX_sport_M",
+    "power": 164
+   },
+   {
+    "model": "midsize",
+    "config": "special",
+    "power": 184
+   },
+   {
+    "model": "midsize",
+    "config": "stanced",
+    "power": 183
+   },
+   {
+    "model": "bx",
+    "config": "200bx_base_A",
+    "power": 145
+   },
+   {
+    "model": "bx",
+    "config": "200bx_base_M",
+    "power": 145
+   },
+   {
+    "model": "bx",
+    "config": "200bx_gtz_M",
+    "power": 215
+   },
+   {
+    "model": "bx",
+    "config": "200bx_type_l_A",
+    "power": 145
+   },
+   {
+    "model": "bx",
+    "config": "200bx_type_l_M",
+    "power": 145
+   },
+   {
+    "model": "bx",
+    "config": "200bx_type_ls_A",
+    "power": 162
+   },
+   {
+    "model": "bx",
+    "config": "200bx_type_ls_M",
+    "power": 162
+   },
+   {
+    "model": "bx",
+    "config": "240bx_coupe_dx_A",
+    "power": 149
+   },
+   {
+    "model": "bx",
+    "config": "240bx_coupe_dx_M",
+    "power": 149
+   },
+   {
+    "model": "bx",
+    "config": "240bx_coupe_lx_A",
+    "power": 149
+   },
+   {
+    "model": "bx",
+    "config": "240bx_coupe_lx_M",
+    "power": 149
+   },
+   {
+    "model": "bx",
+    "config": "240bx_hatch_dx_A",
+    "power": 149
+   },
+   {
+    "model": "bx",
+    "config": "240bx_hatch_dx_M",
+    "power": 149
+   },
+   {
+    "model": "bx",
+    "config": "240bx_hatch_lx_A",
+    "power": 149
+   },
+   {
+    "model": "bx",
+    "config": "240bx_hatch_lx_M",
+    "power": 149
+   },
+   {
+    "model": "bx",
+    "config": "240bx_hatch_lxz_M",
+    "power": 149
+   },
+   {
+    "model": "bx",
+    "config": "diana_base_A",
+    "power": 145
+   },
+   {
+    "model": "bx",
+    "config": "diana_base_M",
+    "power": 145
+   },
+   {
+    "model": "bx",
+    "config": "diana_gtz_M",
+    "power": 215
+   },
+   {
+    "model": "bx",
+    "config": "diana_type_l_A",
+    "power": 145
+   },
+   {
+    "model": "bx",
+    "config": "diana_type_l_M",
+    "power": 145
+   },
+   {
+    "model": "bx",
+    "config": "diana_type_ls_A",
+    "power": 162
+   },
+   {
+    "model": "bx",
+    "config": "diana_type_ls_M",
+    "power": 162
+   },
+   {
+    "model": "bx",
+    "config": "vspecial_M",
+    "power": 215
+   },
+   {
+    "model": "sunburst2",
+    "config": "apmTutorial_sunburst",
+    "power": 147
+   },
+   {
+    "model": "sunburst2",
+    "config": "base_CVT",
+    "power": 145
+   },
+   {
+    "model": "sunburst2",
+    "config": "base_wagon_CVT",
+    "power": 145
+   },
+   {
+    "model": "sunburst2",
+    "config": "comfort_CVT",
+    "power": 168
+   },
+   {
+    "model": "sunburst2",
+    "config": "comfort_M",
+    "power": 145
+   },
+   {
+    "model": "sunburst2",
+    "config": "comfort_wagon_CVT",
+    "power": 168
+   },
+   {
+    "model": "sunburst2",
+    "config": "comfort_wagon_M",
+    "power": 145
+   },
+   {
+    "model": "sunburst2",
+    "config": "drift_street",
+    "power": 221
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_EU_DCT",
+    "power": 147
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_EU_M",
+    "power": 147
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_EU_wagon_DCT",
+    "power": 147
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_EU_wagon_M",
+    "power": 147
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_S_DCT",
+    "power": 217
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_S_M",
+    "power": 217
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_S_wagon_DCT",
+    "power": 217
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_S_wagon_M",
+    "power": 217
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_190d_DCT",
+    "power": 192
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_190d_DCT_comfort",
+    "power": 192
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_190d_M",
+    "power": 192
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_230_DCT",
+    "power": 225
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_230_M",
+    "power": 225
+   },
+   {
+    "model": "vivace",
+    "config": "tograc_150dqX_DCT",
+    "power": 150
+   },
+   {
+    "model": "vivace",
+    "config": "tograc_150dq_DCT",
+    "power": 150
+   },
+   {
+    "model": "vivace",
+    "config": "tograc_150dq_M",
+    "power": 150
+   },
+   {
+    "model": "vivace",
+    "config": "tograc_160q_DCT",
+    "power": 163
+   },
+   {
+    "model": "vivace",
+    "config": "tograc_160q_M",
+    "power": 163
+   },
+   {
+    "model": "vivace",
+    "config": "tograc_190dq_DCT",
+    "power": 192
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_150d_DCT",
+    "power": 150
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_150d_M",
+    "power": 150
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_160_DCT",
+    "power": 163
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_160_M",
+    "power": 163
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_190Sd_DCT",
+    "power": 194
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_E",
+    "power": 193
+   },
+   {
+    "model": "etki",
+    "config": "2400_A",
+    "power": 131
+   },
+   {
+    "model": "etki",
+    "config": "2400_A_alt",
+    "power": 142
+   },
+   {
+    "model": "etki",
+    "config": "2400_M",
+    "power": 131
+   },
+   {
+    "model": "etki",
+    "config": "2400_M_alt",
+    "power": 142
+   },
+   {
+    "model": "etki",
+    "config": "2400i_A",
+    "power": 131
+   },
+   {
+    "model": "etki",
+    "config": "2400i_A_alt",
+    "power": 142
+   },
+   {
+    "model": "etki",
+    "config": "2400i_M",
+    "power": 131
+   },
+   {
+    "model": "etki",
+    "config": "2400i_M_alt",
+    "power": 142
+   },
+   {
+    "model": "etki",
+    "config": "2400ix_A",
+    "power": 131
+   },
+   {
+    "model": "etki",
+    "config": "2400ix_A_alt",
+    "power": 142
+   },
+   {
+    "model": "etki",
+    "config": "2400ix_M",
+    "power": 131
+   },
+   {
+    "model": "etki",
+    "config": "2400ix_M_alt",
+    "power": 142
+   },
+   {
+    "model": "etki",
+    "config": "2400ti_sport_M",
+    "power": 206
+   },
+   {
+    "model": "etki",
+    "config": "2400ti_sport_M_alt",
+    "power": 206
+   },
+   {
+    "model": "etki",
+    "config": "2400tix_sport_M",
+    "power": 206
+   },
+   {
+    "model": "etki",
+    "config": "2400tix_sport_M_alt",
+    "power": 206
+   },
+   {
+    "model": "etki",
+    "config": "3000i_A",
+    "power": 192
+   },
+   {
+    "model": "etki",
+    "config": "3000i_A_alt",
+    "power": 201
+   },
+   {
+    "model": "etki",
+    "config": "3000i_M",
+    "power": 192
+   },
+   {
+    "model": "etki",
+    "config": "3000i_M_alt",
+    "power": 201
+   },
+   {
+    "model": "etki",
+    "config": "3000ix_A",
+    "power": 192
+   },
+   {
+    "model": "etki",
+    "config": "3000ix_A_alt",
+    "power": 201
+   },
+   {
+    "model": "etki",
+    "config": "3000ix_M",
+    "power": 192
+   },
+   {
+    "model": "etki",
+    "config": "3000ix_M_alt",
+    "power": 201
+   },
+   {
+    "model": "etki",
+    "config": "etki_career",
+    "power": 131
+   },
+   {
+    "model": "etk800",
+    "config": "844_150_A",
+    "power": 152
+   },
+   {
+    "model": "etk800",
+    "config": "844_150_M",
+    "power": 152
+   },
+   {
+    "model": "etk800",
+    "config": "854_150d_A",
+    "power": 152
+   },
+   {
+    "model": "etk800",
+    "config": "854_150d_M",
+    "power": 152
+   },
+   {
+    "model": "etk800",
+    "config": "854_190_A",
+    "power": 193
+   },
+   {
+    "model": "etk800",
+    "config": "854_190_M",
+    "power": 193
+   },
+   {
+    "model": "etk800",
+    "config": "854_190d_A",
+    "power": 192
+   },
+   {
+    "model": "etk800",
+    "config": "854_190d_M",
+    "power": 192
+   },
+   {
+    "model": "sbr",
+    "config": "base_RWD_DCT",
+    "power": 209
+   },
+   {
+    "model": "sbr",
+    "config": "base_RWD_M",
+    "power": 209
+   },
+   {
+    "model": "legran",
+    "config": "luxe_v6_A",
+    "power": 152
+   },
+   {
+    "model": "legran",
+    "config": "luxe_v6_wagon_A",
+    "power": 152
+   },
+   {
+    "model": "legran",
+    "config": "s_v6_A",
+    "power": 136
+   },
+   {
+    "model": "legran",
+    "config": "s_v6_facelift_A",
+    "power": 136
+   },
+   {
+    "model": "legran",
+    "config": "se_v6_A",
+    "power": 152
+   },
+   {
+    "model": "legran",
+    "config": "se_v6_towing_A",
+    "power": 152
+   },
+   {
+    "model": "legran",
+    "config": "se_v6_wagon_facelift_A",
+    "power": 152
+   },
+   {
+    "model": "legran",
+    "config": "sport_s_v6_A",
+    "power": 170
+   },
+   {
+    "model": "legran",
+    "config": "sport_s_v6_M",
+    "power": 170
+   },
+   {
+    "model": "legran",
+    "config": "sport_se_i4_facelift_A",
+    "power": 160
+   },
+   {
+    "model": "legran",
+    "config": "sport_se_i4_facelift_M",
+    "power": 160
+   },
+   {
+    "model": "legran",
+    "config": "sport_se_v6_awd_facelift_A",
+    "power": 223
+   },
+   {
+    "model": "legran",
+    "config": "sport_se_v6_awd_facelift_M",
+    "power": 223
+   }
+  ],
+  "rivals_tier2": [
+   {
+    "model": "covet",
+    "config": "custom",
+    "power": 311
+   },
+   {
+    "model": "covet",
+    "config": "race",
+    "power": 327
+   },
+   {
+    "model": "covet",
+    "config": "runner",
+    "power": 285
+   },
+   {
+    "model": "pessima",
+    "config": "GTz",
+    "power": 232
+   },
+   {
+    "model": "pessima",
+    "config": "custom",
+    "power": 341
+   },
+   {
+    "model": "pessima",
+    "config": "drift",
+    "power": 257
+   },
+   {
+    "model": "pessima",
+    "config": "race",
+    "power": 339
+   },
+   {
+    "model": "midsize",
+    "config": "custom",
+    "power": 374
+   },
+   {
+    "model": "midsize",
+    "config": "race",
+    "power": 301
+   },
+   {
+    "model": "bx",
+    "config": "street_drift_M",
+    "power": 242
+   },
+   {
+    "model": "bx",
+    "config": "street_tuned_M",
+    "power": 332
+   },
+   {
+    "model": "sunburst2",
+    "config": "itasha",
+    "power": 329
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_RS2_DCT",
+    "power": 296
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_RS2_wagon_DCT",
+    "power": 296
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_RS_DCT",
+    "power": 276
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_RS_M",
+    "power": 276
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_RS_wagon_DCT",
+    "power": 276
+   },
+   {
+    "model": "sunburst2",
+    "config": "sport_RS_wagon_M",
+    "power": 276
+   },
+   {
+    "model": "sunburst2",
+    "config": "trackday_M",
+    "power": 373
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_S_310_DCT",
+    "power": 304
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_S_310_M",
+    "power": 304
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_carminsport",
+    "power": 330
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_race",
+    "power": 348
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_track",
+    "power": 344
+   },
+   {
+    "model": "vivace",
+    "config": "race_SQ",
+    "power": 331
+   },
+   {
+    "model": "vivace",
+    "config": "trackday_M",
+    "power": 337
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_230S_DCT",
+    "power": 230
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_S_270_DCT",
+    "power": 269
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_S_270_M",
+    "power": 269
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_S_310_DCT",
+    "power": 310
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_S_310_M",
+    "power": 310
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_S_350q_DCT",
+    "power": 350
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_S_350q_M",
+    "power": 350
+   },
+   {
+    "model": "etki",
+    "config": "custom",
+    "power": 351
+   },
+   {
+    "model": "etkc",
+    "config": "kc4_250_A",
+    "power": 251
+   },
+   {
+    "model": "etkc",
+    "config": "kc4_250_M",
+    "power": 251
+   },
+   {
+    "model": "etkc",
+    "config": "kc6_360_A",
+    "power": 366
+   },
+   {
+    "model": "etkc",
+    "config": "kc6_360_M",
+    "power": 366
+   },
+   {
+    "model": "etkc",
+    "config": "kc6x_310d_A",
+    "power": 327
+   },
+   {
+    "model": "etkc",
+    "config": "kc6x_310d_driving_experience_M",
+    "power": 327
+   },
+   {
+    "model": "etkc",
+    "config": "kc6x_360_A",
+    "power": 366
+   },
+   {
+    "model": "etkc",
+    "config": "kc6x_360_M",
+    "power": 366
+   },
+   {
+    "model": "etk800",
+    "config": "844_250_A",
+    "power": 251
+   },
+   {
+    "model": "etk800",
+    "config": "844_250_M",
+    "power": 251
+   },
+   {
+    "model": "etk800",
+    "config": "844_track_M",
+    "power": 266
+   },
+   {
+    "model": "etk800",
+    "config": "846_310d_A",
+    "power": 327
+   },
+   {
+    "model": "etk800",
+    "config": "846_340_A",
+    "power": 346
+   },
+   {
+    "model": "etk800",
+    "config": "846_340_M",
+    "power": 346
+   },
+   {
+    "model": "etk800",
+    "config": "846x_driving_experience_A",
+    "power": 366
+   },
+   {
+    "model": "etk800",
+    "config": "854x_250_A",
+    "power": 251
+   },
+   {
+    "model": "etk800",
+    "config": "856x_310d_A",
+    "power": 327
+   },
+   {
+    "model": "etk800",
+    "config": "856x_340_A",
+    "power": 346
+   },
+   {
+    "model": "etk800",
+    "config": "856xc_260d_A",
+    "power": 265
+   },
+   {
+    "model": "etk800",
+    "config": "856xc_300_A",
+    "power": 304
+   },
+   {
+    "model": "sbr",
+    "config": "S_AWD_DCT",
+    "power": 300
+   },
+   {
+    "model": "sbr",
+    "config": "S_AWD_M",
+    "power": 300
+   },
+   {
+    "model": "sbr",
+    "config": "S_RWD_DCT",
+    "power": 300
+   },
+   {
+    "model": "sbr",
+    "config": "S_RWD_M",
+    "power": 300
+   },
+   {
+    "model": "sbr",
+    "config": "TT_AWD_S_DCT",
+    "power": 350
+   },
+   {
+    "model": "sbr",
+    "config": "TT_AWD_S_M",
+    "power": 350
+   },
+   {
+    "model": "sbr",
+    "config": "TT_RWD_S_DCT",
+    "power": 350
+   },
+   {
+    "model": "sbr",
+    "config": "TT_RWD_S_M",
+    "power": 350
+   },
+   {
+    "model": "sbr",
+    "config": "drift",
+    "power": 361
+   },
+   {
+    "model": "bastion",
+    "config": "base_v6_A",
+    "power": 284
+   },
+   {
+    "model": "bastion",
+    "config": "base_v6_awd_A",
+    "power": 284
+   },
+   {
+    "model": "bastion",
+    "config": "luxe_v6_awd_A",
+    "power": 284
+   },
+   {
+    "model": "bastion",
+    "config": "luxe_v8_A",
+    "power": 369
+   },
+   {
+    "model": "bastion",
+    "config": "luxe_v8_awd_A",
+    "power": 369
+   },
+   {
+    "model": "bastion",
+    "config": "sport_A",
+    "power": 374
+   },
+   {
+    "model": "bastion",
+    "config": "sport_M",
+    "power": 374
+   },
+   {
+    "model": "legran",
+    "config": "custom",
+    "power": 298
+   },
+   {
+    "model": "legran",
+    "config": "race",
+    "power": 312
+   }
+  ],
+  "rivals_tier3": [
+   {
+    "model": "covet",
+    "config": "turbo_race",
+    "power": 468
+   },
+   {
+    "model": "pessima",
+    "config": "custom2",
+    "power": 472
+   },
+   {
+    "model": "pessima",
+    "config": "hillclimb",
+    "power": 550
+   },
+   {
+    "model": "bx",
+    "config": "pro_drift_M",
+    "power": 524
+   },
+   {
+    "model": "bx",
+    "config": "runner_M",
+    "power": 514
+   },
+   {
+    "model": "bx",
+    "config": "track_M",
+    "power": 400
+   },
+   {
+    "model": "sunburst2",
+    "config": "drift_pro",
+    "power": 494
+   },
+   {
+    "model": "sunburst2",
+    "config": "street_tuned",
+    "power": 404
+   },
+   {
+    "model": "sunburst2",
+    "config": "track_attack",
+    "power": 611
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_S_410Q_DCT",
+    "power": 406
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_S_410Q_M",
+    "power": 406
+   },
+   {
+    "model": "vivace",
+    "config": "ardente_tuned",
+    "power": 503
+   },
+   {
+    "model": "vivace",
+    "config": "hillclimb_SQ",
+    "power": 682
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_S_410q_DCT",
+    "power": 409
+   },
+   {
+    "model": "vivace",
+    "config": "vivace_S_410q_M",
+    "power": 409
+   },
+   {
+    "model": "etki",
+    "config": "cool",
+    "power": 554
+   },
+   {
+    "model": "etki",
+    "config": "drift",
+    "power": 454
+   },
+   {
+    "model": "etki",
+    "config": "race",
+    "power": 418
+   },
+   {
+    "model": "etkc",
+    "config": "kc4_street_tuned_M",
+    "power": 398
+   },
+   {
+    "model": "etkc",
+    "config": "kc6x_trackday_A",
+    "power": 461
+   },
+   {
+    "model": "etkc",
+    "config": "kc8_ttsport_DCT",
+    "power": 475
+   },
+   {
+    "model": "etkc",
+    "config": "kc8_ttsport_heritage_M",
+    "power": 555
+   },
+   {
+    "model": "etkc",
+    "config": "kc8x_ttsport_plus_DCT",
+    "power": 603
+   },
+   {
+    "model": "etkc",
+    "config": "race_DCT",
+    "power": 428
+   },
+   {
+    "model": "etkc",
+    "config": "rennspecht_kr_A",
+    "power": 631
+   },
+   {
+    "model": "etk800",
+    "config": "846_ttsport_heritage_M",
+    "power": 469
+   },
+   {
+    "model": "etk800",
+    "config": "846x_ttsport_plus_DCT",
+    "power": 509
+   },
+   {
+    "model": "etk800",
+    "config": "856_ttsport_DCT",
+    "power": 447
+   },
+   {
+    "model": "etk800",
+    "config": "rennspecht_8r_A",
+    "power": 509
+   },
+   {
+    "model": "sbr",
+    "config": "TT_AWD_S2_DCT",
+    "power": 454
+   },
+   {
+    "model": "sbr",
+    "config": "TT_AWD_S2_M",
+    "power": 454
+   },
+   {
+    "model": "sbr",
+    "config": "custom",
+    "power": 543
+   },
+   {
+    "model": "sbr",
+    "config": "track",
+    "power": 484
+   },
+   {
+    "model": "bastion",
+    "config": "drift",
+    "power": 599
+   },
+   {
+    "model": "bastion",
+    "config": "hotlap",
+    "power": 613
+   },
+   {
+    "model": "bastion",
+    "config": "sport_gt_A",
+    "power": 488
+   },
+   {
+    "model": "bastion",
+    "config": "sport_gt_M",
+    "power": 488
+   },
+   {
+    "model": "bastion",
+    "config": "street_tuned",
+    "power": 657
+   },
+   {
+    "model": "scintilla",
+    "config": "gt",
+    "power": 614
+   },
+   {
+    "model": "scintilla",
+    "config": "gt_spider",
+    "power": 614
+   },
+   {
+    "model": "scintilla",
+    "config": "gts",
+    "power": 665
+   },
+   {
+    "model": "scintilla",
+    "config": "gts_spider",
+    "power": 665
+   },
+   {
+    "model": "scintilla",
+    "config": "gtx",
+    "power": 665
+   },
+   {
+    "model": "scintilla",
+    "config": "gtx_spider",
+    "power": 665
+   }
+  ]
+ }
+}

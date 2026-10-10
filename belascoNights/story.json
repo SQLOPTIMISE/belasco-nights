@@ -1,0 +1,35 @@
+{
+ "version": 1,
+ "chapters": [
+  {
+   "id": "arrival",
+   "minRep": 0,
+   "title": "Arrival",
+   "text": "Marlow: So you're the one with the tired 200BX. You owe me for the garage space. The streets open at night - win something and start paying it back."
+  },
+  {
+   "id": "noticed",
+   "minRep": 300,
+   "title": "Getting noticed",
+   "text": "Unknown number: People are talking about the 200BX on the coast road. Vex's crew wants to know who you are. Keep winning and you'll find out why that matters."
+  },
+  {
+   "id": "sponsor",
+   "minRep": 900,
+   "title": "Sponsorship",
+   "text": "Marlow: A parts shop downtown wants its name on your car. Faster rivals are coming out now - don't embarrass them."
+  },
+  {
+   "id": "betrayal",
+   "minRep": 2000,
+   "title": "Betrayal",
+   "text": "Vex: Marlow never told you who bought your debt, did he? It was me. Race me for it. Lose and the car is mine."
+  },
+  {
+   "id": "city",
+   "minRep": 4000,
+   "title": "Taking the city",
+   "text": "Marlow: Vex's crew is falling apart. One last run across the whole city and Belasco is yours."
+  }
+ ]
+}
