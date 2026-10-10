@@ -38,7 +38,7 @@ Keys can also be bound under Options > Controls: search for "Belasco Nights".
 
 ## RLS Career Overhaul
 
-Belasco Nights runs alongside [RLS Career Overhaul](https://www.beamng.com/threads/rls-career-overhaul.99819/) (built against 2.7.0) but does not need it.
+Belasco Nights runs alongside RLS Career Overhaul (built against 2.7.0) but does not need it.
 
 - In a career save, race winnings are paid into your career wallet.
 - In career the streets open by themselves when the career clock reaches night; there is no manual switch.
