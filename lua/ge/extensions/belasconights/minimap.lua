@@ -7,8 +7,8 @@ M.dependencies = {'belasconights_core'}
 
 local im = ui_imgui
 
-local refreshInterval = 0.4 -- seconds between rebuilding the list of nearby roads
-local refreshTimer = refreshInterval
+local refreshDistance = 60  -- the nearby-road list is rebuilt after driving this far, not on a timer
+local lastRefreshPos = nil
 local roads = {}            -- {ax, ay, bx, by, width} in world coordinates
 local upVec = vec3(0, 0, 1)
 local p1, p2 = im.ImVec2(0, 0), im.ImVec2(0, 0)
@@ -40,7 +40,7 @@ local function refreshRoads(pos, range)
   local mapData = map.getMap()
   local nodes = mapData and mapData.nodes
   if not nodes then return end
-  local reach = range * 1.5
+  local reach = range * 1.5 + refreshDistance
   local seen = {}
   for name, node in pairs(nodes) do
     local dx, dy = node.pos.x - pos.x, node.pos.y - pos.y
@@ -82,9 +82,10 @@ local function onUpdate(dtReal)
   local right = fwd:cross(upVec)
 
   local range = getCfg().range or 220
-  refreshTimer = refreshTimer + dtReal
-  if refreshTimer >= refreshInterval then
-    refreshTimer = 0
+  -- walking every road node on the map is the expensive part, so only do it
+  -- when the car has moved far enough for the cached roads to run out
+  if not lastRefreshPos or lastRefreshPos:distance(pos) > refreshDistance then
+    lastRefreshPos = vec3(pos)
     refreshRoads(pos, range)
   end
 
@@ -110,10 +111,15 @@ local function onUpdate(dtReal)
       return cx + (rx * right.x + ry * right.y) * k, cy - (rx * fwd.x + ry * fwd.y) * k
     end
 
+    local right0, bottom0 = left + size, top + size
     for _, r in ipairs(roads) do
-      p1.x, p1.y = project(r[1], r[2])
-      p2.x, p2.y = project(r[3], r[4])
-      im.ImDrawList_AddLine(dl, p1, p2, colors.road, math.max(2, r[5] * k * 1.6))
+      local ax, ay = project(r[1], r[2])
+      local bx, by = project(r[3], r[4])
+      -- skip segments that are entirely off one side of the map
+      if not ((ax < left and bx < left) or (ax > right0 and bx > right0) or (ay < top and by < top) or (ay > bottom0 and by > bottom0)) then
+        p1.x, p1.y, p2.x, p2.y = ax, ay, bx, by
+        im.ImDrawList_AddLine(dl, p1, p2, colors.road, math.max(2, r[5] * k * 1.6))
+      end
     end
 
     -- puts a marker on the map, held at the edge when it is out of range
@@ -163,6 +169,12 @@ local function onUpdate(dtReal)
   im.End()
 end
 
+local function onClientStartMission()
+  lastRefreshPos = nil
+  roads = {}
+end
+
 M.onUpdate = onUpdate
+M.onClientStartMission = onClientStartMission
 
 return M

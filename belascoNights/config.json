@@ -1,6 +1,6 @@
 {
  "version": 1,
- "freeroamTrafficAmount": 6,
+ "freeroamTrafficAmount": 3,
  "nightTime": 0.5,
  "tiers": [
   {
